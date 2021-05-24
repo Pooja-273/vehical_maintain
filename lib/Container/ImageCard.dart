@@ -20,7 +20,6 @@ class _ImageCardState extends State<ImageCard> {
         children: [
           Container(
             // height:435,
-
             child: Row(
               children: <Widget>[
                 Padding(

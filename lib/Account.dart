@@ -345,7 +345,7 @@ class _AccountState extends State<Account> {
                               ),
                               onPressed: (){
                                 Navigator.push(context, MaterialPageRoute(
-                                    builder: (context) => LoginPage()));
+                                    builder: (context) => Login()));
                               },
                             ),
                           ),

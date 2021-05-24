@@ -20,21 +20,24 @@ class _ViewCardState extends State<ViewCard> {
       child: Column(
         children: [
              Container(
-              width: 160,
+              width: 140,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.only(right:15.0),
-                    child: SvgPicture.asset(widget.image),
-                  ),
+                       padding: const EdgeInsets.only(top:3.0),
+                       child: SvgPicture.asset(widget.image),
+                     ),
                   Padding(
-                    padding: const EdgeInsets.only(left:1.0,top:5),
-                    child: Text(widget.name,style: TextStyle(color: Color.fromRGBO(33,33,33,1),
-                      fontSize: 12,
-                      fontFamily: 'Mulish',
-                      fontWeight: FontWeight.w700,
-                    ),),
-                  ),
+                      padding: const EdgeInsets.only(right:13.0,top:5),
+                      child: Text(widget.name,style: TextStyle(color: Color.fromRGBO(33,33,33,1),
+                          fontSize: 12,
+                          fontFamily: 'Mulish',
+                          fontWeight: FontWeight.w700,
+                        ),),
+                    ),
+
+
                 ],
               ),
             ),

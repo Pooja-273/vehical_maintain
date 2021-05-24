@@ -1,6 +1,7 @@
 import 'package:flutter/foundation.dart';
 
-class ServiceCenterModel{
+
+class CarDetailModel{
   final String image;
   final String title;
   final String star;
@@ -12,10 +13,7 @@ class ServiceCenterModel{
   final String price;
   final String subcategories;
 
-
-
-  ServiceCenterModel(this.image,this.title, this.star, this.rating, this.location, this.area, this.pickup, this.managedby,this.price,this.subcategories);
+  CarDetailModel(this.image,this.title, this.star, this.rating, this.location, this.area, this.pickup, this.managedby,this.price,this.subcategories);
 
 
 }
-
